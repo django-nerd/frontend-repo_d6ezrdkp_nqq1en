@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion'
-import { Bot, Zap, ShieldCheck, Leaf, Sparkles, Gauge } from 'lucide-react'
+import { Bot, Zap, Shield, Leaf, Sparkles, MousePointer } from 'lucide-react'
 
 const items = [
   { icon: Bot, title: 'Gemini AI Detection', desc: 'Cutting-edge vision + language models for instant recognition.' },
-  { icon: ShieldCheck, title: 'Crop Protection', desc: 'Actionable guidance to minimize damage and protect yield.' },
+  { icon: Shield, title: 'Crop Protection', desc: 'Actionable guidance to minimize damage and protect yield.' },
   { icon: Leaf, title: 'Sustainability', desc: 'Balanced, eco-friendly recommendations tailored to your crop.' },
   { icon: Zap, title: 'Under 3s', desc: 'Blazing-fast results with a 95% accuracy target.' },
   { icon: Sparkles, title: 'Expertise', desc: 'Curated knowledge base and verified sources.' },
-  { icon: Gauge, title: 'Ease of Use', desc: 'Drag-and-drop, mobile ready, delightful interactions.' },
+  { icon: MousePointer, title: 'Ease of Use', desc: 'Drag-and-drop, mobile ready, delightful interactions.' },
 ]
 
 export default function Benefits() {

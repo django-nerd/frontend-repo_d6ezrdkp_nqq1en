@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, Filter, Grid3X3, List, Sprout, AlertTriangle, X } from 'lucide-react'
+import { Search, Filter, Grid3x3, List, Sprout, AlertTriangle, X } from 'lucide-react'
 
 const pests = [
   { id: 1, name: 'Fall Armyworm', category: 'Caterpillar', threat: 'High', img: 'https://images.unsplash.com/photo-1614854262343-1a2f40166f64?q=80&w=1200&auto=format&fit=crop' },
@@ -41,7 +41,7 @@ export default function Directory() {
         <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
           <h2 className="text-3xl font-bold text-emerald-900 md:text-4xl">Pest Directory</h2>
           <div className="flex gap-2">
-            <button onClick={() => setView('grid')} className={`rounded-full px-3 py-1.5 text-sm ${view==='grid'?'bg-emerald-600 text-white':'bg-emerald-100 text-emerald-800'}`}><Grid3X3 className="mr-1 inline h-4 w-4"/> Grid</button>
+            <button onClick={() => setView('grid')} className={`rounded-full px-3 py-1.5 text-sm ${view==='grid'?'bg-emerald-600 text-white':'bg-emerald-100 text-emerald-800'}`}><Grid3x3 className="mr-1 inline h-4 w-4"/> Grid</button>
             <button onClick={() => setView('list')} className={`rounded-full px-3 py-1.5 text-sm ${view==='list'?'bg-emerald-600 text-white':'bg-emerald-100 text-emerald-800'}`}><List className="mr-1 inline h-4 w-4"/> List</button>
           </div>
         </div>
